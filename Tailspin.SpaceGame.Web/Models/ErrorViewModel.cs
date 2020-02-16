@@ -4,6 +4,7 @@ namespace TailSpin.SpaceGame.Web.Models
     {
         public string RequestId { get; set; }
 
+// Test
         public bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
     }
 }
