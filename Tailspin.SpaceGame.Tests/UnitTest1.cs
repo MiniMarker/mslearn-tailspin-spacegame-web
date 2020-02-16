@@ -11,7 +11,7 @@ namespace Tailspin.SpaceGame.Tests
         [Test]
         public void FetchOnlyRequestedGameRegion(string gameRegion)
         {
-            Assert.That( true, Is.True );
+            Assert.That(2+2, Is.EqualTo(4));
         }
     }
 }
